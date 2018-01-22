@@ -1,0 +1,28 @@
+{
+  "intents": [
+    {
+      "intent": "GetCurrentStats",
+      "slots": [
+        {
+          "name": "Miner",
+          "type": "MinerNames"
+        }
+      ]
+    },
+    {
+      "intent": "GetReport"
+    },
+    {
+      "intent": "GetTemperature",
+      "slots": [
+        {
+          "name": "Hardware",
+          "type": "HardwareTypes"
+        }
+      ]
+    },
+    {
+      "intent": "ResetPower"
+    }
+  ]
+}

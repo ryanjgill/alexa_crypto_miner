@@ -1,0 +1,16 @@
+{
+  "name": "alexa_crypto_miner",
+  "version": "1.0.0",
+  "description": "Alexa skill that provides current temps on miner.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ryan Gill",
+  "license": "ISC",
+  "dependencies": {
+    "alexa-sdk": "^1.0.14",
+    "bespoken-tools": "^1.1.0",
+    "request": "^2.81.0"
+  }
+}
